@@ -4,7 +4,16 @@ using namespace std;
 
 int main()
 {
-	cout << "GitHub 출력";
+	string github = "";
+
+	cout << "GitHub 입력" << endl;
+	cin >> github;
+
+	if (github == "GitHub") {
+		cout << "YES" << endl;
+	}
+	else
+		cout << "NO" << endl;
 
 	return 0;
 }
